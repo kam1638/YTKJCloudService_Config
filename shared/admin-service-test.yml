@@ -1,0 +1,31 @@
+server:
+  port: 5002
+
+security:
+  user:
+    name: admin
+    password: 123456
+
+management:
+  security:
+    enabled: false
+
+spring:
+  boot:
+    admin:
+      routes:
+        endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream,activiti
+      turbine:
+        clusters: default
+        location: monitor-service
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: admin
+      user.password: 123456
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+logging:
+  file: "logs/admin-service-pro.log"

@@ -1,0 +1,15 @@
+server:
+  port: 8767
+
+
+spring:
+  zipkin:
+    base-url: http://172.17.0.1:9411
+
+  rabbitmq:
+    host: 172.17.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
