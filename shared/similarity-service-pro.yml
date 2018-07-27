@@ -14,11 +14,3 @@ spring:
     url: jdbc:mysql://120.79.27.32:3306/preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
     password: rys87tgD
-
-  rabbitmq:
-    host: 120.79.27.32
-    port: 5672
-    username: guest
-    password: guest
-    publisher-confirms: true
-    virtual-host: /

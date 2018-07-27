@@ -38,4 +38,11 @@ feign:
   hystrix:
     enabled: true
 
-
+spring:
+  rabbitmq:
+    host: 172.17.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /

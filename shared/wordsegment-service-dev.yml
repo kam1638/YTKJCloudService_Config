@@ -5,11 +5,3 @@ server:
 spring:
   zipkin:
     base-url: http://localhost:9411
-
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-    publisher-confirms: true
-    virtual-host: /
