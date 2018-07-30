@@ -1,5 +1,5 @@
 server:
-  port: 5002
+  port: 8768
 
 security:
   user:
