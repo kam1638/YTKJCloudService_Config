@@ -6,6 +6,9 @@ turbine:
     clusterConfig: default
   appConfig: user-service , blog-service
   clusterNameExpression: new String("default")
+  combine-host: true
+  instanceUrlSuffix:
+    default: actuator/hystrix.stream
 
 management:
   security:
