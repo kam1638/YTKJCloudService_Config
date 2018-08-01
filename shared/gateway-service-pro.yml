@@ -27,7 +27,7 @@ zuul:
       sensitiveHeaders:
 
 server:
-  port: 9997
+  port: 5001
 
 spring:
   zipkin:
