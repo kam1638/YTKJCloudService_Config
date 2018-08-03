@@ -19,6 +19,3 @@ spring:
       ddl-auto: update
     show-sql: true
 
-management:
-  security:
-    enabled: false
