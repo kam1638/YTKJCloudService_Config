@@ -25,8 +25,7 @@ eureka:
       user.name: admin
       user.password: 123456
     prefer-ip-address: true
-    instance-id: "1.1.1.1"
-#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
 
 logging:
   file: "/home/docker/logs/admin-service-pro.log"
