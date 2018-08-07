@@ -31,6 +31,11 @@ zuul:
       serviceId: preprocess-service
       sensitiveHeaders:
 
+    wechat-service:
+      path: /wechatapi/**
+      serviceId: wechat-service
+      sensitiveHeaders:
+
 server:
   port: 5001
 
