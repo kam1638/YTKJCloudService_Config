@@ -1,6 +1,6 @@
 server:
   port: 8772
-security.basic.enabled: false
+
 
 spring:
   zipkin:
