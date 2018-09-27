@@ -1,10 +1,15 @@
 server:
   port: 8772
-security.basic.enabled: false
+
 
 spring:
   zipkin:
     base-url: http://172.17.0.1:9411
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.79.27.32:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: rys87tgD
 
 management:
   security:
