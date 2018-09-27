@@ -36,6 +36,11 @@ zuul:
       serviceId: wechat-service
       sensitiveHeaders:
 
+    intellitrain-service:
+      path: /intellitrainapi/**
+      serviceId: intellitrain-service
+      sensitiveHeaders:
+
 server:
   port: 80
 
