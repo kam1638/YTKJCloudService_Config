@@ -11,9 +11,9 @@ spring:
 #    port: 5672
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.116:3306/ytkj_user?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    url: jdbc:mysql://localhost:3306/ytkj_user?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
-    password: 123456
+    password: rys87tgD
   jpa:
     hibernate:
       ddl-auto: update
