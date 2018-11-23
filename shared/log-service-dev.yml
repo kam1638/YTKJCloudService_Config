@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ytkj-log?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    url: jdbc:mysql://localhost:3306/ytkj_log?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
     password: rys87tgD
   jpa:
