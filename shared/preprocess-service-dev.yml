@@ -12,14 +12,14 @@ spring:
   ytkjpreprocess:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
       password: rys87tgD
 
   ytkjsentence:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
       password: rys87tgD
 
