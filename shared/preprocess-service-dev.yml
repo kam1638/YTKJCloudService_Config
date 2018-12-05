@@ -12,14 +12,20 @@ spring:
   ytkjpreprocess:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
       password: rys87tgD
+      hikari:
+        jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      type: com.zaxxer.hikari.HikariDataSource
 
   ytkjsentence:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
       password: rys87tgD
+      hikari:
+        jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      type: com.zaxxer.hikari.HikariDataSource
 
