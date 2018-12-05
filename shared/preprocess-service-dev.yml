@@ -9,15 +9,15 @@ spring:
 #  rabbitmq:
 #    host: localhost
 #    port: 5672
-  ytkjpreprocess:
-    datasource:
+  datasource:
+    ytkjpreprocess:
       driver-class-name: com.mysql.jdbc.Driver
       jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
       password: rys87tgD
 
-  ytkjsentence:
-    datasource:
+  datasource:
+    ytkjsentence:
       driver-class-name: com.mysql.jdbc.Driver
       jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
       username: root
