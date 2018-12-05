@@ -11,21 +11,17 @@ spring:
 #    port: 5672
   ytkjpreprocess:
     datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-      username: root
-      password: rys87tgD
       hikari:
+        driver-class-name: com.mysql.jdbc.Driver
         jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-      type: com.zaxxer.hikari.HikariDataSource
+        username: root
+        password: rys87tgD
 
   ytkjsentence:
     datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-      username: root
-      password: rys87tgD
       hikari:
+        driver-class-name: com.mysql.jdbc.Driver
         jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-      type: com.zaxxer.hikari.HikariDataSource
+        username: root
+        password: rys87tgD
 
