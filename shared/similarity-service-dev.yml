@@ -10,7 +10,13 @@ spring:
 #    host: localhost
 #    port: 5672
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.116:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-    username: root
-    password: 123456
+    ytkjpreprocess:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/ytkj_preprocess?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      username: root
+      password: rys87tgD
+    ytkjsentence:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/ytkj_sentence?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+      username: root
+      password: rys87tgD
